@@ -10,11 +10,6 @@ Each milestone moves through To Do -> In Progress -> Done.
 
 ## To Do
 
-- [ ] **TASK-1: Project setup and data loading**
-  - [ ] App runs with `streamlit run app.py` and shows a title
-  - [ ] Loads `data/sales-data.csv`; handles a missing file cleanly
-  - Commit:
-
 - [ ] **TASK-2: KPI scorecards**
   - [ ] Total Sales and Total Orders displayed prominently, formatted as currency / with number separators
   - [ ] Values match expected calculations from the CSV (~$116,500 total sales, 482 orders)
@@ -36,5 +31,10 @@ Each milestone moves through To Do -> In Progress -> Done.
   - Commit:
 
 ## In Progress
+
+- [ ] **TASK-1: Project setup and data loading**
+  - [ ] App runs with `streamlit run app.py` and shows a title
+  - [ ] Loads `data/sales-data.csv`; handles a missing file cleanly
+  - Commit:
 
 ## Done

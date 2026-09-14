@@ -32,9 +32,10 @@ Each milestone moves through To Do -> In Progress -> Done.
 
 ## In Progress
 
-- [ ] **TASK-1: Project setup and data loading**
-  - [ ] App runs with `streamlit run app.py` and shows a title
-  - [ ] Loads `data/sales-data.csv`; handles a missing file cleanly
-  - Commit:
-
 ## Done
+
+- [x] **TASK-1: Project setup and data loading**
+  - [x] App runs with `streamlit run app.py` and shows a title
+  - [x] Loads `data/sales-data.csv`; handles a missing file cleanly
+  - Commit: bc76a23
+  - Notes: clean

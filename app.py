@@ -1,4 +1,12 @@
 import streamlit as st
 
+import analytics
+
 st.set_page_config(page_title="E-Commerce Sales Dashboard", layout="wide")
 st.title("E-Commerce Sales Dashboard")
+
+try:
+    df = analytics.load_data()
+except FileNotFoundError:
+    st.error("Data file not found at `data/sales-data.csv`. Add it and reload the app.")
+    st.stop()

@@ -20,3 +20,24 @@ def test_load_data_missing_file_raises(tmp_path):
     missing_path = tmp_path / "does_not_exist.csv"
     with pytest.raises(FileNotFoundError):
         analytics.load_data(str(missing_path))
+
+
+@pytest.fixture
+def sample_df():
+    data = {
+        "date": pd.to_datetime([
+            "2024-01-05", "2024-01-20", "2024-02-10", "2024-02-15", "2024-02-20",
+        ]),
+        "order_id": ["ORD-001", "ORD-002", "ORD-003", "ORD-004", "ORD-005"],
+        "product": ["Widget A", "Widget B", "Widget C", "Widget D", "Widget E"],
+        "category": ["Electronics", "Accessories", "Electronics", "Accessories", "Audio"],
+        "region": ["North", "South", "North", "East", "West"],
+        "quantity": [1, 2, 1, 3, 1],
+        "unit_price": [100.0, 25.0, 200.0, 10.0, 40.0],
+        "total_amount": [100.0, 50.0, 200.0, 30.0, 40.0],
+    }
+    return pd.DataFrame(data)
+
+
+def test_total_sales_sums_total_amount(sample_df):
+    assert analytics.total_sales(sample_df) == 420.0

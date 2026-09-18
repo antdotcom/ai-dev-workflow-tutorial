@@ -17,7 +17,7 @@ Each milestone moves through To Do -> In Progress -> Done.
 - [x] **TASK-5: Test and deploy**
   - [x] Dashboard runs without errors or warnings and loads within 5 seconds
   - [x] Deployed to Streamlit Community Cloud with a public, shareable URL
-  - Commit:
+  - Commit: acbc178
   - URL: https://sales-dashboard-anthonywatson.streamlit.app/
   - Notes: clean
 

@@ -10,11 +10,6 @@ Each milestone moves through To Do -> In Progress -> Done.
 
 ## To Do
 
-- [ ] **TASK-2: KPI scorecards**
-  - [ ] Total Sales and Total Orders displayed prominently, formatted as currency / with number separators
-  - [ ] Values match expected calculations from the CSV (~$116,500 total sales, 482 orders)
-  - Commit:
-
 - [ ] **TASK-3: Sales trend chart**
   - [ ] Line chart shows sales over time with correct data
   - [ ] Interactive tooltips show exact values
@@ -31,6 +26,11 @@ Each milestone moves through To Do -> In Progress -> Done.
   - Commit:
 
 ## In Progress
+
+- [ ] **TASK-2: KPI scorecards**
+  - [ ] Total Sales and Total Orders displayed prominently, formatted as currency / with number separators
+  - [ ] Values match expected calculations from the CSV (~$116,500 total sales, 482 orders)
+  - Commit:
 
 ## Done
 

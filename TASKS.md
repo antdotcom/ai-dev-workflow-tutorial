@@ -22,11 +22,6 @@ Each milestone moves through To Do -> In Progress -> Done.
 
 ## In Progress
 
-- [ ] **TASK-3: Sales trend chart**
-  - [ ] Line chart shows sales over time with correct data
-  - [ ] Interactive tooltips show exact values
-  - Commit:
-
 ## Done
 
 - [x] **TASK-1: Project setup and data loading**
@@ -39,4 +34,10 @@ Each milestone moves through To Do -> In Progress -> Done.
   - [x] Total Sales and Total Orders displayed prominently, formatted as currency / with number separators
   - [x] Values match expected calculations from the CSV (~$116,500 total sales, 482 orders)
   - Commit: 3a832cd
+  - Notes: clean
+
+- [x] **TASK-3: Sales trend chart**
+  - [x] Line chart shows sales over time with correct data
+  - [x] Interactive tooltips show exact values
+  - Commit: 27b5541
   - Notes: clean

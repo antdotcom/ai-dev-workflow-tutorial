@@ -45,3 +45,9 @@ def test_total_sales_sums_total_amount(sample_df):
 
 def test_total_orders_counts_unique_order_ids(sample_df):
     assert analytics.total_orders(sample_df) == 5
+
+
+def test_monthly_trend_sums_by_month_chronologically(sample_df):
+    result = analytics.monthly_trend(sample_df)
+    assert list(result["month"]) == ["2024-01", "2024-02"]
+    assert list(result["total_amount"]) == [150.0, 270.0]

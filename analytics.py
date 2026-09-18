@@ -17,3 +17,15 @@ def total_sales(df: pd.DataFrame) -> float:
 def total_orders(df: pd.DataFrame) -> int:
     """Count of unique order IDs."""
     return int(df["order_id"].nunique())
+
+
+def monthly_trend(df: pd.DataFrame) -> pd.DataFrame:
+    """Total sales summed per calendar month, sorted chronologically."""
+    result = (
+        df.assign(month=df["date"].dt.to_period("M").astype(str))
+        .groupby("month", as_index=False)["total_amount"]
+        .sum()
+        .sort_values("month")
+        .reset_index(drop=True)
+    )
+    return result

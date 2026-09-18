@@ -10,17 +10,17 @@ Each milestone moves through To Do -> In Progress -> Done.
 
 ## To Do
 
-- [ ] **TASK-4: Category and region breakdowns**
-  - [ ] Bar chart shows sales by category, sorted highest to lowest, with interactive tooltips
-  - [ ] Bar chart shows sales by region, sorted highest to lowest, with interactive tooltips
-  - Commit:
-
 - [ ] **TASK-5: Test and deploy**
   - [ ] Dashboard runs without errors or warnings and loads within 5 seconds
   - [ ] Deployed to Streamlit Community Cloud with a public, shareable URL
   - Commit:
 
 ## In Progress
+
+- [ ] **TASK-4: Category and region breakdowns**
+  - [ ] Bar chart shows sales by category, sorted highest to lowest, with interactive tooltips
+  - [ ] Bar chart shows sales by region, sorted highest to lowest, with interactive tooltips
+  - Commit:
 
 ## Done
 

@@ -51,3 +51,9 @@ def test_monthly_trend_sums_by_month_chronologically(sample_df):
     result = analytics.monthly_trend(sample_df)
     assert list(result["month"]) == ["2024-01", "2024-02"]
     assert list(result["total_amount"]) == [150.0, 270.0]
+
+
+def test_sales_by_category_sorted_descending(sample_df):
+    result = analytics.sales_by_category(sample_df)
+    assert list(result["category"]) == ["Electronics", "Accessories", "Audio"]
+    assert list(result["total_amount"]) == [300.0, 80.0, 40.0]

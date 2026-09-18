@@ -57,3 +57,9 @@ def test_sales_by_category_sorted_descending(sample_df):
     result = analytics.sales_by_category(sample_df)
     assert list(result["category"]) == ["Electronics", "Accessories", "Audio"]
     assert list(result["total_amount"]) == [300.0, 80.0, 40.0]
+
+
+def test_sales_by_region_sorted_descending(sample_df):
+    result = analytics.sales_by_region(sample_df)
+    assert list(result["region"]) == ["North", "South", "West", "East"]
+    assert list(result["total_amount"]) == [300.0, 50.0, 40.0, 30.0]

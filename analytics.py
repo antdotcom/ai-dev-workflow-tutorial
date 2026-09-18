@@ -40,3 +40,14 @@ def sales_by_category(df: pd.DataFrame) -> pd.DataFrame:
         .reset_index(drop=True)
     )
     return result
+
+
+def sales_by_region(df: pd.DataFrame) -> pd.DataFrame:
+    """Total sales per region, sorted highest to lowest."""
+    result = (
+        df.groupby("region", as_index=False)["total_amount"]
+        .sum()
+        .sort_values("total_amount", ascending=False)
+        .reset_index(drop=True)
+    )
+    return result

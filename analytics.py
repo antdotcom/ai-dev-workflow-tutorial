@@ -12,3 +12,8 @@ def load_data(path: str = "data/sales-data.csv") -> pd.DataFrame:
 def total_sales(df: pd.DataFrame) -> float:
     """Sum of total_amount across all transactions."""
     return float(df["total_amount"].sum())
+
+
+def total_orders(df: pd.DataFrame) -> int:
+    """Count of unique order IDs."""
+    return int(df["order_id"].nunique())

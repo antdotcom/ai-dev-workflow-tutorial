@@ -41,3 +41,7 @@ def sample_df():
 
 def test_total_sales_sums_total_amount(sample_df):
     assert analytics.total_sales(sample_df) == 420.0
+
+
+def test_total_orders_counts_unique_order_ids(sample_df):
+    assert analytics.total_orders(sample_df) == 5

@@ -10,11 +10,6 @@ Each milestone moves through To Do -> In Progress -> Done.
 
 ## To Do
 
-- [ ] **TASK-3: Sales trend chart**
-  - [ ] Line chart shows sales over time with correct data
-  - [ ] Interactive tooltips show exact values
-  - Commit:
-
 - [ ] **TASK-4: Category and region breakdowns**
   - [ ] Bar chart shows sales by category, sorted highest to lowest, with interactive tooltips
   - [ ] Bar chart shows sales by region, sorted highest to lowest, with interactive tooltips
@@ -26,6 +21,11 @@ Each milestone moves through To Do -> In Progress -> Done.
   - Commit:
 
 ## In Progress
+
+- [ ] **TASK-3: Sales trend chart**
+  - [ ] Line chart shows sales over time with correct data
+  - [ ] Interactive tooltips show exact values
+  - Commit:
 
 ## Done
 

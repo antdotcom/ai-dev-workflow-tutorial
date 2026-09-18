@@ -1,5 +1,7 @@
 # AI-Assisted Development Workflow Tutorial
 
+**Live dashboard:** https://sales-dashboard-anthonywatson.streamlit.app/
+
 This tutorial teaches you a professional development workflow by having you build and deploy a real project: an e-commerce sales dashboard.
 
 You'll work through it in two parts:

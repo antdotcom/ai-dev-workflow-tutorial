@@ -10,14 +10,16 @@ Each milestone moves through To Do -> In Progress -> Done.
 
 ## To Do
 
-- [ ] **TASK-5: Test and deploy**
-  - [ ] Dashboard runs without errors or warnings and loads within 5 seconds
-  - [ ] Deployed to Streamlit Community Cloud with a public, shareable URL
-  - Commit:
-
 ## In Progress
 
 ## Done
+
+- [x] **TASK-5: Test and deploy**
+  - [x] Dashboard runs without errors or warnings and loads within 5 seconds
+  - [x] Deployed to Streamlit Community Cloud with a public, shareable URL
+  - Commit:
+  - URL: https://sales-dashboard-anthonywatson.streamlit.app/
+  - Notes: clean
 
 - [x] **TASK-1: Project setup and data loading**
   - [x] App runs with `streamlit run app.py` and shows a title

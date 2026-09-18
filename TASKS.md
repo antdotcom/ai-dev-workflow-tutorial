@@ -17,11 +17,6 @@ Each milestone moves through To Do -> In Progress -> Done.
 
 ## In Progress
 
-- [ ] **TASK-4: Category and region breakdowns**
-  - [ ] Bar chart shows sales by category, sorted highest to lowest, with interactive tooltips
-  - [ ] Bar chart shows sales by region, sorted highest to lowest, with interactive tooltips
-  - Commit:
-
 ## Done
 
 - [x] **TASK-1: Project setup and data loading**
@@ -40,4 +35,10 @@ Each milestone moves through To Do -> In Progress -> Done.
   - [x] Line chart shows sales over time with correct data
   - [x] Interactive tooltips show exact values
   - Commit: 27b5541
+  - Notes: clean
+
+- [x] **TASK-4: Category and region breakdowns**
+  - [x] Bar chart shows sales by category, sorted highest to lowest, with interactive tooltips
+  - [x] Bar chart shows sales by region, sorted highest to lowest, with interactive tooltips
+  - Commit: 82d19f4
   - Notes: clean
